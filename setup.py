@@ -6,13 +6,13 @@ with open('README.rst') as f:
 
 setup(
     name='vectortools',
-    version='0.0.5',
+    version='0.0.6',
     long_description=long_description,
-    url='https://bitbucket.org/lighter/vectortools/',
+    url='https://bitbucket.org/slavas/vectortools/',
     packages=['vectortools', 'vectortools.django'],
     description='Tools for processing different vector formats',
     install_requires=[
         'cchardet',
-        'GDAL>=1.7.0,<2.0.0',
+        'GDAL>=1.7.0,<3.1.0',
     ],
 )
