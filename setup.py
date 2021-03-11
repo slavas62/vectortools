@@ -6,7 +6,7 @@ with open('README.rst') as f:
 
 setup(
     name='vectortools',
-    version='0.0.6',
+    version='0.0.7',
     long_description=long_description,
     url='https://bitbucket.org/slavas/vectortools/',
     packages=['vectortools', 'vectortools.django'],
