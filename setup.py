@@ -13,6 +13,6 @@ setup(
     description='Tools for processing different vector formats',
     install_requires=[
         'cchardet',
-        'GDAL==3.0.4',
+        'GDAL>=1.7.0,<3.1.0',
     ],
 )
